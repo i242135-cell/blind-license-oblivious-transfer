@@ -1,0 +1,12 @@
+{
+  "samples": 100,
+  "warmup": 10,
+  "median_ms": 1.555,
+  "p95_ms": 1.823,
+  "min_ms": 1.472,
+  "max_ms": 2.052,
+  "method": "Flask in-process test client; session + receiver public point + server transfer, excludes browser decryption, TLS and network",
+  "python": "3.14.7",
+  "ciphertext_bytes_each": 4112,
+  "nonce_bytes_each": 12
+}

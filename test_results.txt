@@ -1,0 +1,13 @@
+test_both_choices (test_security.SecurityTests.test_both_choices) ... ok
+test_expiry (test_security.SecurityTests.test_expiry) ... ok
+test_invalid_point (test_security.SecurityTests.test_invalid_point) ... ok
+test_no_sender_secret_after_use (test_security.SecurityTests.test_no_sender_secret_after_use) ... ok
+test_padding (test_security.SecurityTests.test_padding) ... ok
+test_replay (test_security.SecurityTests.test_replay) ... ok
+test_tamper (test_security.SecurityTests.test_tamper) ... ok
+test_wrong_branch (test_security.SecurityTests.test_wrong_branch) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.047s
+
+OK
