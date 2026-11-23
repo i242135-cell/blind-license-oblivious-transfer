@@ -53,10 +53,6 @@ Ristretto255, additive DH notation: `A=aP`, `B=bP+cA`, `S0=aB`, `S1=a(B-A)`, rec
 
 Educational, unaudited composition; semi-honest protocol model. Does not establish malicious-secure OT. No real payments, account authentication, per-client quotas, buyer anonymity, DRM or forensic secret erasure. Session IDs are bearer handles. Global session capacity is bounded, but anonymous issuance remains susceptible to denial of service. Secrets temporarily reside in SQLite; setting fields to NULL is not guaranteed disk erasure. Production needs HTTPS, independently trusted client code, verified payment-bound entitlement issuance, rate limiting, hardened secret handling and expert review. A new session permits a new demo purchase. A consumed response lost in transit cannot currently be retrieved.
 
-## Submission checklist
-
-Fill in your three members, roll numbers and section. Publish and test a real hosted service, upload all deliverables to GitHub, and add repository and hosted URLs to your own row of the topic selection sheet. Do not edit another group's entry. Prepare a live demo and a technical question for the next presenting group. See the course brief for exact requirements.
-
 ## References and third-party assets
 
 - Chou & Orlandi, *The Simplest Protocol for Oblivious Transfer*: https://eprint.iacr.org/2015/267
@@ -64,4 +60,3 @@ Fill in your three members, roll numbers and section. Publish and test a real ho
 - Cryptography AEAD: https://cryptography.io/en/latest/hazmat/primitives/aead/
 - Vendored `libsodium-sumo` and `libsodium-wrappers-sumo` 0.7.15: https://github.com/jedisct1/libsodium.js (ISC license). See THIRD_PARTY_NOTICES.txt.
 
-Sample SVG assets are original minimal title-card designs created for this demonstration.
