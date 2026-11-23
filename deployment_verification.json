@@ -1,0 +1,68 @@
+{
+  "url": "https://kashan.pythonanywhere.com/",
+  "verified_at_utc": "2026-11-23T15:45:30.164789+00:00",
+  "scope": "HTTPS page/assets/health and end-to-end API transfers with local decryption; not a proof of cryptographic security",
+  "results": [
+    {
+      "check": "/",
+      "status": 200,
+      "bytes": 5480
+    },
+    {
+      "check": "/health",
+      "status": 200,
+      "bytes": 16
+    },
+    {
+      "check": "/static/libsodium-sumo.js",
+      "status": 200,
+      "bytes": 960303
+    },
+    {
+      "check": "/static/libsodium-wrappers.js",
+      "status": 200,
+      "bytes": 101758
+    },
+    {
+      "check": "choice 0",
+      "result": "expected SVG decrypted locally",
+      "ciphertext_bytes_each": 4112
+    },
+    {
+      "check": "replay choice 0",
+      "status": 409
+    },
+    {
+      "check": "choice 1",
+      "result": "expected SVG decrypted locally",
+      "ciphertext_bytes_each": 4112
+    },
+    {
+      "check": "replay choice 1",
+      "status": 409
+    },
+    {
+      "check": "identity point rejected",
+      "status": 400
+    }
+  ],
+  "browser_checks": {
+    "verified_at_utc": "2026-11-23T15:47:26.071381+00:00",
+    "downloads": [
+      {
+        "choice": 0,
+        "download": "licensed-template.svg",
+        "expected_design_verified": true,
+        "ui_status": "Downloaded successfully. Your choice was decrypted in this browser."
+      },
+      {
+        "choice": 1,
+        "download": "licensed-template.svg",
+        "expected_design_verified": true,
+        "ui_status": "Downloaded successfully. Your choice was decrypted in this browser."
+      }
+    ],
+    "page_errors": [],
+    "mobile_390px_no_horizontal_overflow": true
+  }
+}

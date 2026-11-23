@@ -1,0 +1,47 @@
+BLIND LICENSE — CS-3002, TOPIC 5
+Updated: 23 November 2026
+
+LIVE WEBSITE: https://kashan.pythonanywhere.com/
+HEALTH CHECK: https://kashan.pythonanywhere.com/health
+GITHUB: https://github.com/i242135-cell/blind-license-oblivious-transfer
+
+REQUIRED FILES (on GitHub):
+1. OT_Project_Report.pdf — technical report.
+2. OT_Project_Presentation.pptx — presentation with speaker notes.
+3. Deployable source code and README.md — included in the repository.
+
+OPTIONAL EDITABLE COPY:
+OT_Project_Report.docx — edit your team details here, then export to PDF.
+Edit the three-member team fields on the PowerPoint title slide too.
+The build_documents.py script generates documents with blank team fields;
+if you edit generated documents manually, do not rerun it afterward unless
+team details have also been incorporated into the script.
+
+VERIFIED:
+- Public HTTPS website, health endpoint and browser libraries load.
+- Both real browser template downloads contain the expected designs.
+- Both live API choices decrypt correctly.
+- Replay requests return HTTP 409; invalid identity point returns HTTP 400.
+- 390px mobile viewport has no horizontal overflow.
+- Detailed live evidence: deployment_verification.json.
+- Local test evidence and benchmark are included separately.
+
+STUDENT ACTIONS BEFORE SUBMISSION:
+[ ] Fill the names, roll numbers and section of exactly three members.
+[ ] Export the edited Word report to PDF and upload the final PDF/PPTX to GitHub.
+[ ] Add GitHub and hosted website URLs to YOUR OWN topic-selection-sheet row.
+[ ] Practise the live demonstration and speaker explanations.
+[ ] Prepare a technical question for the group presenting immediately after you.
+[ ] Check and extend PythonAnywhere's free web-app expiry before it lapses.
+
+No submission is required on GCR according to the provided brief.
+Do not upload sessions.sqlite3, __pycache__, .env, or account credentials.
+Payment is simulated; one-choice enforcement is per demo session.
+
+QUICK WEBSITE UPDATE:
+Commit website changes to GitHub. In PythonAnywhere Bash:
+  cd /home/kashan/blind-license-oblivious-transfer
+  git pull --ff-only origin main
+Then select Web > Reload and check the website.
+If requirements.txt changed, activate /home/kashan/ot-venv and install the
+requirements before Reload. Test security-related code changes appropriately.

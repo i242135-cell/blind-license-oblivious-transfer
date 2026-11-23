@@ -10,4 +10,4 @@ Payment is simulated. Starting another session permits another demonstration pur
 
 SQLite temporarily stores sender secrets. Marking a field NULL or expiring a row does not guarantee erasure from disk, journals, or backups. Browser and Python garbage collection do not guarantee secret erasure. No rate limiter beyond a global session capacity bound is included. A public deployment must add operational controls appropriate to the expected traffic.
 
-The supplied Docker and Render files are deployment preparations. A public HTTPS deployment has not been verified as part of the local test evidence.
+The public Flask application is deployed at https://kashan.pythonanywhere.com/ on PythonAnywhere. Live HTTPS routes, both API transfer/decryption choices, replay rejection and invalid-point rejection were verified on 23 November 2026; see deployment_verification.json. This integration verification does not expand the cryptographic security model. Docker and Render files are optional alternative deployment configurations.
