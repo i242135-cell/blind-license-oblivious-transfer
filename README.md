@@ -2,7 +2,7 @@
 
 Repository: https://github.com/i242135-cell/blind-license-oblivious-transfer
 
-CS-3002 Information Security, topic 5. A browser selects and locally decrypts one of two SVG templates; the vendor receives only a blinded public point and returns both ciphertexts.
+A browser selects and locally decrypts one of two SVG templates; the vendor receives only a blinded public point and returns both ciphertexts.
 
 ## Run locally
 
